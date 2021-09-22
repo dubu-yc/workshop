@@ -1,6 +1,6 @@
 #Yoonah Chang, Michael Borczuk, Kevin Cao (Team Sneakers)
 #SoftDev
-#K01-- Python Random Name Generator
+#K01 -- Python Random Name Generator
 #2021-09-22
 
 import random
