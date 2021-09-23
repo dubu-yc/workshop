@@ -1,2 +1,2 @@
-# workshop
-yoonah's workshop repo!
+# workshop of yoonah chang
+SoftDev 2021-2022
