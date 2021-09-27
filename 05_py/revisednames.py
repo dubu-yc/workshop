@@ -19,6 +19,6 @@ students = {
 }
 
 def printName():
-    print("period 1: " + students["list1"][random.randint(0, len(list1) - 1)])
-    print("period 2: " + students["list2"][random.randint(0, len(list2) - 1)])
+    print("period 1: " + students["list1"][random.randint(0, len('list1') - 1)])
+    print("period 2: " + students["list2"][random.randint(0, len('list2') - 1)])
 printName()
