@@ -14,11 +14,11 @@
 
 import random
 students = {
-        'list1': ["Rayat", "William", "Michelle", "Lucas", "Ivan"],
-        'list2': ["Yoonah", "Joshua", "Alif", "Josephine", "Andrew"]
+        'list1': ["Rayat", "William", "Michelle", "Lucas", "Ivan"],     #names we know from period 1
+        'list2': ["Yoonah", "Joshua", "Alif", "Josephine", "Andrew"]    #names we know from period 2
 }
 
 def printName():
-    print("period 1: " + students["list1"][random.randint(0, len('list1') - 1)])
-    print("period 2: " + students["list2"][random.randint(0, len('list2') - 1)])
+    print("period 1: " + students["list1"][random.randint(0, len('list1') - 1)]) #find a random number between 0 and the number of elements in the list, excluding
+    print("period 2: " + students["list2"][random.randint(0, len('list2') - 1)]) #the last number, that number will be the index.
 printName()
