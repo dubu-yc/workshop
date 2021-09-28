@@ -13,12 +13,22 @@
 #contributions- yoonah: period 1/2 comments, josh: randint and lists, josephine: use of a function
 
 import random
-students = {
-        'list1': ["Rayat", "William", "Michelle", "Lucas", "Ivan"],     #names we know from period 1
-        'list2': ["Yoonah", "Joshua", "Alif", "Josephine", "Andrew"]    #names we know from period 2
+
+students={
+'list1': ['Alejandro Alonso', 'Aryaman Goenka', 'Angela Zhang', 'Christopher Liu', 'Deven Maheshwari',
+       'Emma Buller', 'Ella Krechmer', 'Gavin McGinley', 'Haotian Gan', 'Ivan Lam', 'Ishraq Mahid',
+       'Ivan Mijacika', 'Julia Nelson', 'Lucas Lee', 'Lucas Tom Wong', 'Michelle Lo', 'Oscar Wang',
+       'Owen Yaggy', 'Renggeng Zheng', 'Shriya Anand', 'Shyne Choi','Sadid Ethun', 'Tomas Acuna','Theo Fahey',
+       'Tina Nguyen', 'Tami Takada', 'William Chen', 'Yusuf Elsharawy', 'Zhaoyu Lin'],                                  #names we know from period 1
+'list2': ['Alif Abdullah', 'Andrew Juang', 'Andy Lin', 'Austin Ngan', 'Annabel Zhang', 'Daniel Sooknanan',
+       'Eric Guo', 'Eliza Knapp', 'Hebe Huang', 'Han Zhang', 'Yoonah Chang', 'Joshua Kloepfer', 'Josephine Lee', 'Jonathan Wu',
+       'Jesse Xie', 'Justin Zou', 'Kevin Cao', 'Liesel Wong', 'Michael Borczuk', 'Mark Zhu', 'Noakai Aronesty',
+       'Patrick Ging','Qina Liu', 'Rachel Xiao', 'Raymond Yeung', 'Sophie Liu', 'Shadman Rakib','Thomas Yu',
+       'Wenhao Dong', 'Yaying Liang Li', 'Yuqing Wu'],                                                                  #names we know from period 2
 }
 
 def printName():
-    print("period 1: " + students["list1"][random.randint(0, len('list1') - 1)]) #find a random number between 0 and the number of elements in the list, excluding
-    print("period 2: " + students["list2"][random.randint(0, len('list2') - 1)]) #the last number, that number will be the index.
+    print('period 1: ' + students['list1'][random.randint(0, len(students['list1']) - 1)] #find a random number between 0 and the number of elements in the list,
+    print('period 2: ' + students['list2'][random.randint(0, len(students['list2']) - 1)]) #excluding the last number, that number will be the index.
 printName()
+
