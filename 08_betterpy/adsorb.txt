@@ -1,0 +1,9 @@
+Team Best Squared: Yoonah Chang, Yaying Liang Li, Josh Kloepfer, Justin Zou
+SoftDev
+K08 -- QCCs of other workshops
+2021-09-30
+
+TASK ALPHA!
+Questions: How to change Justin's code into a function?
+Comments: Nice use of floats and intervals.
+Concerns: Justin's code should have been a function?
