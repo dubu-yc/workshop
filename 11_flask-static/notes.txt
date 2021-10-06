@@ -1,0 +1,14 @@
+Team Sneakers: Yoonah Chang (Yelena), Kevin Cao (Pipi), Michael Borczuk (Lady Liberty and Baby Yoda)
+SoftDev
+K11 -- Flask Foo Predictions
+2021-10-06
+
+Predictions for foo:
+The server won't be able to print out the file's contents on the page. It might return an error.
+Predictions for foo.html:
+This will work! We will be able to see the text that is inside the html brackets.
+
+What actually happened for foo: 
+Instead of an error message, we received a pop up message asking us whether we wanted to save a file named foo. When we saved the file, it went to our downloads folder, and when we cat it, it showed us the same text that was in the original file in Github.
+What actually happened for foo.html:
+We see the text within the html tags: "Is this plaintext, though?"
