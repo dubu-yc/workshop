@@ -1,3 +1,7 @@
+Team Sneakers: Yoonah Chang (Yelena), Kevin Cao (Pipi), Michael Borczuk (Lady Liberty and Baby Yoda)
+SoftDev
+K11 -- Flask Foo Predictions
+2021-10-06
 
 Predictions for foo:
 The server won't be able to print out the file's contents on the page. It might return an error.
