@@ -3,7 +3,7 @@ SoftDev
 K12 -- Flask Template Predictions
 2021-10-07
 
-Questions: Why am I tired. :(
+Questions: Advantages of Jinja over other engines (maybe faster)? What is {% endfor %}? Similarities to Django?
 
 Predictions:
 Q0: If we delete render_template in the beginning, we'll receive an error message, because the app doesn't know what render_template is when it is asked to return render_template, only when we point the browser to localhost:5000/my_foist_template.
