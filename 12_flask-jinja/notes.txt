@@ -1,4 +1,4 @@
-Team Sneakers: Yoonah Chang (Yelena), Kevin Cao (Pipi), Michael Borczuk (Lady Liberty and Baby Yoda)
+Team Sneakers: Yoonah Chang (Yelena), Kevin Cao (Pipi), Michael Borczuk (Liberty and Baby Yoda)
 SoftDev
 K12 -- Flask Template Predictions
 2021-10-07
