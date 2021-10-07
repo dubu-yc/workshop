@@ -1,0 +1,18 @@
+
+
+Questions: Why am I tired. :(
+
+Predictions:
+Q0: If we delete render_template in the beginning, we'll receive an error message, because the app doesn't know what render_template is when it is asked to return render_template, only when we point the browser to localhost:5000/my_foist_template.
+
+Q1: It should be localhost:5000/my_foist_template.
+
+Q2: The render_template function has argument model_tmplt.html, which is the name of the template file. The render_template function takes the values of the collection and foo variables and replaces instances of collection and foo with these values in the html file.
+
+What actually happens: 
+A0: If we delete render_template, we do indeed receive an error message saying "NameError: name 'render_template' is not defined. 
+
+A1: We were correct!
+
+A2: If we remove the foo initialization, it just uses a default title for the page. But if you delete collection = coll, it returns a blank page, because the list is empty.
+
