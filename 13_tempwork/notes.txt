@@ -1,0 +1,9 @@
+Blue Imposter | Daniel Sooknanan (Sussy), Yoonah Chang (Yelena), Annabel Zhang (Mang)
+K13 -- Flask w/ Tablified Occupations  
+SoftDev
+2021-10-09
+
+EGO:
+- programmers have a certain ego to their work, and thusly create a negative environment for themselves in the effort of trying to prove that their work reflects them
+- Bill G. prospered as a programmer because he was able to accept error in his code from his peers as genuine help instead of a personal attack
+- most programmers work alone, mainly to keep code errors at a minimum 

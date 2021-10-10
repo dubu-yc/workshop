@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Occupations Picker</title>
+        <link rel="stylesheet" href="../static/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="layout-container">
+            <div class="header">
+                <h1>Blue Imposter</h1>
+                <span>Daniel Sooknanan (Sussy), Yoonah Chang (Yelena), Annabel Zhang (Mang)</span>
+            </div>
+            <div class="select-container">
+                Selected: <a id="selected" class="occ-link" href="{{ selected_link }}">{{ selected }}</a>
+            </div>
+            <div class="occupations-container">
+                <h2>Occupations: </h2>
+                <div class="list-container">
+                {% set FREQ = 0 %}
+                {% set LINK = 1 %}
+                {% for key, values in occupations.items() %}
+                    <div class="list-item">
+                        <a class="occ-link" href="{{ values[LINK] }}">{{ key }}</a>
+                        <div class="bar"></div>
+                    </div>
+                    <div>{{ values[FREQ] }}</div>
+                {% endfor %}
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
