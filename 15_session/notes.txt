@@ -1,0 +1,9 @@
+Team Marshmallow: Liesel Wong (King Hagrid), Yoonah Chang (Yelena), Rachel Xiao (Mooana)
+SoftDev
+K15 -- Form and Function
+2021-10-18
+
+Dev Console Observations:
+- After submitting a username, the Dev Console prints "GET http://127.0.0.1:5000/favicon.ico" with a 404 NOT FOUND error that refers us to this link: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status. The resource makes us think that they can't find the favicon source.
+- After submitting, we also get GET http://127.0.0.1:5000/auth?username=f&sub1=Submit+Query which is shown after clicking the request button. The status is 200 OK (https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/200) which is a success status response. This depends on the request method so in this case, since the GET method is used, "the resource has been fetched and is transmitted in the message body."
+	- In this line, when we click on the response tab, we can see our response.html displayed.
