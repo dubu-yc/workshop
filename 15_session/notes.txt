@@ -1,9 +1,46 @@
 Team Marshmallow: Liesel Wong (King Hagrid), Yoonah Chang (Yelena), Rachel Xiao (Mooana)
 SoftDev
-K15 -- Form and Function
+K15 -- Sessions Greetings
 2021-10-18
 
 Dev Console Observations:
-- After submitting a username, the Dev Console prints "GET http://127.0.0.1:5000/favicon.ico" with a 404 NOT FOUND error that refers us to this link: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status. The resource makes us think that they can't find the favicon source.
-- After submitting, we also get GET http://127.0.0.1:5000/auth?username=f&sub1=Submit+Query which is shown after clicking the request button. The status is 200 OK (https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/200) which is a success status response. This depends on the request method so in this case, since the GET method is used, "the resource has been fetched and is transmitted in the message body."
+- We watched the Dev Console as we entered a username into the web page of 14_form.
+- After submitting, the Dev Console prints "GET http://127.0.0.1:5000/favicon.ico"
+with a 404 NOT FOUND error that refers us to this link: https://developer.mozilla.org/en-US/docs/
+Web/HTTP/Status. The resource makes us think that they can't find the favicon source because we
+didn't put an image that appears on the tab.
+- After submitting, we also get "GET http://127.0.0.1:5000/auth?username=f&sub1=Submit+Query" which
+is revealed after clicking the request button. The status is 200 OK which is a success status
+response. This depends on the request method so in this case, since the GET method is used, "the
+resource has been fetched and is transmitted in the message body." The data from the form has
+been successfully stored and passed to the template.
 	- In this line, when we click on the response tab, we can see our response.html displayed.
+- Because we couldn't find any cookies in the 14_form web page, we observed the cookies as we
+logged into the github website. We noticed that there are response and request cookies for the GET
+and POST methods. It seems like there are conditions as we noticed a line that said "logged in: no"
+- One of the POST methods also let to path of /session
+
+- In our web page, the console shows this for the Cookies:
+session	
+httpOnly	true
+path	"/"
+value	"eyJ0b3BoZXIiOiJteWtvbHlrIn0.YW9_mQ.MxLfLjZ4q6wn2KMk46f7nDhbj04" 
+
+
+Notes for creating the app:
+- Secret keys: used to sign session cookies for protection against cookie data tampering. It's very
+important that an attacker doesn't know the value of this secret key.
+- The dev console for our web page has a bunch of errors and some seem to relate to the favicon (why does this matter?)
+
+
+Questions:
+- What exactly is the difference between GET and POST and why does it matter what request method we
+use to retrieve the input?
+
+
+References:
+- favicon.ico: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
+- 200 OK: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/200
+- https://pythonbasics.org/flask-sessions/ --> this was a big help because we were stuck for a while
+- https://pythonbasics.org/flask-http-methods/ --> GET and POST methods
+- https://docs.python.org/3/tutorial/errors.html --> try except
