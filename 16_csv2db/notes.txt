@@ -10,6 +10,19 @@ the values of its corresponding key.
 index in the list.
 - References: https://docs.python.org/3/library/csv.html
 
+SQLITE:
+- sqlite <file_name> allows us to create a shell in the terminal that accesses a database. We can
+use .quit to get out of the shell.
+- We learned that the shell displayes ...> when it thinks that we are continuing a line of code. To end code statements, we need to use semicolons.
+- SQL makes it easy to access specific information using column names.
+- It seems like the SQL table is ordering the table by the PRIMARY KEY.
+- Use PRIMARY to identify the uniqueness of the row in the table. This is the identifier that should be different for each row.
+- When we have INTEGER PRIMARY KEY as a type for a table and we try to open the database file after
+it's created, we received a "sqlite3.IntegrityError: UNIQUE constraint failed: courses.id" So what 
+exactly can PRIMARY KEYs be used for?
+- We noticed that the commands have to be Strings so we used concatenation when using the INSERT
+method.
+
 ----------------------------------------------------------
 Relational database
  
