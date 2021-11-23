@@ -20,6 +20,12 @@ body{
     padding: 0
 }
 
+a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
 .navbar{
     float: left;
     padding: 0 50px 0 10px
