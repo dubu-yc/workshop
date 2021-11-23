@@ -2,3 +2,4 @@ Ducks: Yoonah Chang (Yelena), Josephine Lee (Kitty)
 SoftDev
 K19 -- A RESTful Journey Skyward
 2021-11-23
+time spent: 1.0 hours

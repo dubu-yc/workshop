@@ -2,13 +2,25 @@
 # SoftDev
 # K19 -- A RESTful Journey Skyward
 # 2021-11-23
+# time spent: 1.0 hours
 
-from flask import Flask
-app = Flask(__name__) # Q0: Where have you seen similar syntax in other langs?
+from flask import Flask, render_template
+import requests
+app = Flask(__name__) 
 
-@app.route("/") # Q1: What points of reference do you have for meaning of '/'?
-def hello_world():
-    print(__name__) # Q2: Where will this print to? Q3: What will it print?
-    return "No hablo queso!"  # Q3: Will this appear anywhere? How u know?
+with open("key_nasa.txt", "r", encoding="utf-8") as api:
+    NasaAPIKey = api.read().strip()
 
-app.run()  # Q4: Where have you seen similar construcs in other languages?
+@app.route("/") 
+def main():
+    api_request = requests.get("https://api.nasa.gov/planetary/apod", params={"api_key": NasaAPIKey})
+    if api_request.status_code == 200:
+        pic_explanation = api_request.json()["explanation"]
+        pic = api_request.json()["hdurl"]
+        return render_template("main.html", pic=pic, pic_explanation=pic_explanation)
+
+    return render_template("main.html")
+
+if __name__ == "__main__":
+    app.debug = True
+    app.run()
