@@ -1,0 +1,12 @@
+Ducks: Yoonah Chang (Yelena), Josephine Lee (Kitty)
+SoftDev pd2
+K18 -- CSS basics
+2021-11-22
+
+Lorem Ipsum Generator used: Cupcake ipsum generator
+http://www.cupcakeipsum.com
+
+Inline: very time consuming and confusing, since the CSS is mixed in with the HTML comments.
+Easy to check styling for certain elements fast.
+Internal
+External
