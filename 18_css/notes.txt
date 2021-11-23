@@ -9,4 +9,4 @@ http://www.cupcakeipsum.com
 Inline: very time consuming and confusing, since the CSS is mixed in with the HTML comments.
 Easy to check styling for certain elements fast.
 Internal: easier to do after doing inline, and I liked that I could assign each part a class and then focus on each class.
-External
+External: very easy to do after doing internal; mainly just copy and paste from internal into the css file
