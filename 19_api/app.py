@@ -14,16 +14,12 @@ app = Flask(__name__)
 @app.route("/") 
 def main():
     resp = request.urlopen("https://api.nasa.gov/planetary/apod?api_key=bg1bOijQFnDyPQQInDutrR8tuhxQmw5JdcQCEMkS")
-    
-    data = json.load(resp)
-  
-    imglink = data['url']
-                  
-    pic_explanation = data['explanation']
-    
     print (resp)
+    data = json.load(resp)
     print (data)
-    print (imglink)
+    imglink = data['url']
+    print (imglink)       
+    pic_explanation = data['explanation']
     print (pic_explanation)
 
     return render_template("main.html", img = imglink, explanation = pic_explanation)
