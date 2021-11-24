@@ -8,21 +8,27 @@ from flask import Flask, render_template
 from urllib import request
 import json
 
-app = Flask(__name__) 
+app = Flask(__name__)
 
 
-@app.route("/") 
+@app.route("/")
 def main():
     resp = request.urlopen("https://api.nasa.gov/planetary/apod?api_key=bg1bOijQFnDyPQQInDutrR8tuhxQmw5JdcQCEMkS")
-    print (resp)
+    #gets the info from the URL link with the specific api key
     data = json.load(resp)
+    #changes the string data into a dictionary called data
+    imglink = data["url"]
+    #makes a variable imglink hold the value of url that is inside of data dictionary
+    pic_explanation = data["explanation"]
+    #makes a variable pic_explanation hold the value of explanation that is inside of data dictionary
+
+    print (resp)
     print (data)
-    imglink = data['url']
-    print (imglink)       
-    pic_explanation = data['explanation']
+    print (imglink)
     print (pic_explanation)
 
-    return render_template("main.html", img = imglink, explanation = pic_explanation)
+    #prints and displays on webpage
+    return render_template("main.html", pic = imglink, explanation = pic_explanation)
 
 if __name__ == "__main__":
     app.debug = True
