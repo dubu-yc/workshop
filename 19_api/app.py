@@ -5,21 +5,28 @@
 # time spent: 1.0 hours
 
 from flask import Flask, render_template
-import requests
+from urllib3 import request
+import json
+
 app = Flask(__name__) 
 
-with open("key_nasa.txt", "r", encoding="utf-8") as api:
-    NasaAPIKey = api.read().strip()
 
 @app.route("/") 
 def main():
-    api_request = requests.get("https://api.nasa.gov/planetary/apod", params={"api_key": NasaAPIKey})
-    if api_request.status_code == 200:
-        pic_explanation = api_request.json()["explanation"]
-        pic = api_request.json()["hdurl"]
-        return render_template("main.html", pic=pic, pic_explanation=pic_explanation)
+    resp = request.urlopen("https://api.nasa.gov/planetary/apod?api_key=bg1bOijQFnDyPQQInDutrR8tuhxQmw5JdcQCEMkS")
+    
+    data = json.load(resp)
+  
+    imglink = data['url']
+                  
+    pic_explanation = data['explanation']
+    
+    print (resp)
+    print (data)
+    print (imglink)
+    print (pic_explanation)
 
-    return render_template("main.html")
+    return render_template("main.html", img = imglink, pic_explanation)
 
 if __name__ == "__main__":
     app.debug = True
