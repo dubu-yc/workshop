@@ -3,3 +3,6 @@ SoftDev
 K19 -- A RESTful Journey Skyward
 2021-11-23
 time spent: 1.0 hours
+
+API key and URL: https://api.nasa.gov/planetary/apod?api_key=bg1bOijQFnDyPQQInDutrR8tuhxQmw5JdcQCEMkS
+
