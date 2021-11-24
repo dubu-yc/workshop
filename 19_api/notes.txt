@@ -6,3 +6,6 @@ time spent: 1.0 hours
 
 API key and URL: https://api.nasa.gov/planetary/apod?api_key=bg1bOijQFnDyPQQInDutrR8tuhxQmw5JdcQCEMkS
 
+We utilized json.loads in order to take all the JSON info given to us through the api key and URL and make a dictionary named data. We took parts of data and had separate variables store those parts (like the image URL and the explanation) in order to call them later on and display them on the Flask app.
+
+New things: import json, from urllib import request
