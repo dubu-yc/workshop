@@ -5,7 +5,7 @@
 # time spent: 1.0 hours
 
 from flask import Flask, render_template
-from urllib3 import request
+from urllib import request
 import json
 
 app = Flask(__name__) 
