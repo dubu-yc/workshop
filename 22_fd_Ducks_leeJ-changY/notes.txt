@@ -6,4 +6,17 @@ time spent:
 
 Most attractive features:
 1. Simpler and fewer CSS styles
+	lightweight
+	easy to use templates that can be downloaded
 2. Sass
+3. Strong grid system
+	aljflsjfalsdkjaldskjaldskj
+4. Lots of customization settings
+
+
+design it yourself approach
+immense customization settings
+strong grid system
+rapid development of code
+easy to use templates available for download
+lightweight
