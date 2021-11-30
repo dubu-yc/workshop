@@ -9,9 +9,12 @@ Most attractive features:
 	lightweight
 	easy to use templates that can be downloaded
 2. Sass
+	https://zurb.com/university/lessons/146
 3. Strong grid system
+	https://get.foundation/sites/docs-v5/components/grid.html
 	aljflsjfalsdkjaldskjaldskj
 4. Lots of customization settings
+	https://www.creativebloq.com/features/best-css-frameworks
 
 
 design it yourself approach
