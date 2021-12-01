@@ -3,3 +3,18 @@ SoftDev
 K23 -- Bootstrap framework
 2021-12-01
 
+DISCO
+
+Features of Softlocked's Website (Bootstrap)
+- button
+- columns
+- jumbotron
+- table
+- list
+
+
+QCC
+
+Q0
+
+Q1
