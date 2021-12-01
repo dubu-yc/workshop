@@ -2,6 +2,7 @@ Ducks: Yoonah Chang (Yelena), Josephine Lee (Kitty)
 SoftDev
 K23 -- Bootstrap framework
 2021-12-01
+time spent: 0.5 hrs
 
 DISCO
 
@@ -22,3 +23,4 @@ Q0
 - Yes. We verbally consulted Team Softlocked with questions specific to Sass and their key features in the website. We asked them how their tables worked.
 
 Q1
+- We prefer Bootstrap! It seems like it has all of Foundation's most useful features, and it's also very clear and easy to read within the code. The jumbotron feature is a very nice addition. Bootstrap wins!
