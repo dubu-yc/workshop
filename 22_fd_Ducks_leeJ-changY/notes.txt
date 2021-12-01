@@ -1,8 +1,8 @@
 Ducks: Yoonah Chang (Yelena), Josephine Lee (Kitty)
 SoftDev
 K22 -- Foundation Framework
-2021-11-29
-time spent:
+2021-11-30
+time spent: 2.0 hrs
 
 Most attractive features:
 1. Simpler and fewer CSS styles
