@@ -12,9 +12,13 @@ Features of Softlocked's Website (Bootstrap)
 - table
 - list
 
+Directly links Sass into HTML file
 
 QCC
-
+- How does the button work in foundation vs bootstrap?
+- Bootstrap looks easier to understand from the code. For ex. the table's alternating colors are easily recognizable in the code due to the activate
+- 
 Q0
+- Yes. We verbally consulted Team Softlocked with questions specific to Sass and their key features in the website. We asked them how their tables worked.
 
 Q1
