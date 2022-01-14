@@ -7,7 +7,5 @@ time spent: 1 hr
 - For choosing an operating system, it automatically gives us the default update (at least for Ubuntu), which is 20.04 (LTS) x64.
 - LTS stands for long term support (shorter development cycle) = more beta test = less bugs!!!
 - Having ipv6 enabled is "pog", as Josh puts it.
+- SSH key is stored as the id_rsa file.
 - Life is good.
-
-
-
