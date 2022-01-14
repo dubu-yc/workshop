@@ -3,32 +3,28 @@
 ## Overview
 Guide to creating an ubuntu 20.04 virtual machine ("droplet") and installing Apache2 web server on it.
 
-### Estimated Time Cost: _
+### Estimated Time Cost: 30 minutes
 
 ### Prerequisites:
 
-- Something you should know beforehand...
-- Something you will need installed beforehand...
+- Make sure you can log into your user with root permissions, before you close the root.
+- You will need to do an initial server setup before installing LAMP. Consult the first resource!
 
-1. Step blah blah blah, and/or...
-1. Step, with `inline code`, and/or...
-1. Step, with
-    ```
-    generic code block or terminal command
-    ```
-   and/or...
-    ```javascript
-    var foo = "this that JS tho";
-    ```
-   and/or...
-    ```python
-    print("this that Python tho")
-    ```
-   and/or...
-1. Step, with [hyperlink](https://xkcd.com)s...
-
+1. Install Apache 
+```
+$ sudo apt install apache2
+```
+2. Allow traffic on port 80
+```
+$ sudo ufw allow in "Apache"
+```
+3. Install sqlite3
+```
+$ sudo apt install sqlite3
+```
 
 ### Resources
+* https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-20-04
 * https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-20-04
 * https://www.digitalocean.com/community/questions/error-permission-denied-publickey-when-i-try-to-ssh
 * https://www.digitalocean.com/community/questions/secure-ubuntu-server-for-non-root-user-using-only-ssh-keys?answer=22286
@@ -43,10 +39,8 @@ Guide to creating an ubuntu 20.04 virtual machine ("droplet") and installing Apa
 
 ---
 
-Accurate as of (last update): 2022-01-11
+Accurate as of (last update): 2022-01-14
 
 #### Contributors:  
-Clyde "Thluffy" Sinclair  
-Topher Mykolyk, pd0  
-
-_Note: the two spaces after each name are important! ( <--burn after reading)  _
+Yoonah Chang, pd2  
+Joshua Kloepfer, pd2  
