@@ -1,0 +1,8 @@
+Zed&Yuumi&Tristana: Yoonah Chang (Yelena), Joshua Kloepfer (Kevin), and Pat Ging (Chris)
+SoftDev
+K25 -- Deploy Flask app on Apache2
+2022-01-18
+time spent: 1 hr
+
+Prerequsites:
+Make sure your flask app (app.py) is renamed to __init__.py
