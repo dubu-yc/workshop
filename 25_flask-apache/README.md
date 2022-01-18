@@ -7,24 +7,21 @@ Flask is not built to serve -- on its own -- persistent or high-traffic sites. A
 
 ### Prerequisites:
 
-- Something you should know beforehand...
+- Make sure your flask app (app.py) is renamed to ``` __init__.py ```
 - Something you will need installed beforehand...
 
-1. Step blah blah blah, and/or...
-1. Step, with `inline code`, and/or...
-1. Step, with
+1. Install and enable mod_wsgi (changed to reflect python3!) with
     ```
-    generic code block or terminal command
+    sudo apt-get install libapache2-mod-wsgi-py3 python-dev
     ```
-   and/or...
-    ```javascript
-    var foo = "this that JS tho";
+    and
     ```
-   and/or...
-    ```python
-    print("this that Python tho")
+    sudo a2enmod wsgi 
     ```
-   and/or...
+2. Create and place flask app in /var/www directory with ``` cd /var/www ```
+3. Install flask
+4. 
+   
 1. Step, with [hyperlink](https://xkcd.com)s...
 
 
@@ -33,14 +30,9 @@ Flask is not built to serve -- on its own -- persistent or high-traffic sites. A
 
 ---
 
-Accurate as of (last update): 2022-01-dd
+Accurate as of (last update): 2022-01-18
 
 #### Contributors:  
-Clyde "Thluffy" Sinclair  
-Joan of Arc, pd1  
-Buttercup, pd9  
-Blossom, pd9  
-Bubbles, pd9  
-Fake Grimlock, pd2  
-
-_Note: the two spaces after each name are important! ( <--burn after reading)  _
+Joshua Kloepfer, pd2  
+Pat Ging, pd2  
+Yoonah Chang, pd2  
