@@ -1,8 +1,10 @@
-Zed&Yuumi&Tristana: Yoonah Chang (Yelena), Joshua Kloepfer (Kevin), and Pat Ging (Chris)
+ZednYuumi: Yoonah Chang (Yelena) and Joshua Kloepfer (Kevin) and Patrick Ging
 SoftDev
-K25 -- Deploy Flask app on Apache2
-2022-01-18
+K25 -- Apache, Jump On It
+2022-01-14
 time spent: 1 hr
 
-Prerequsites:
-Make sure your flask app (app.py) is renamed to __init__.py
+
+- by default apache2 runs python 2.7 unless you do sudo apt-get install libapache2-mod-wsgi-py3
+- ServiceName in the config file can be either the ip address or the domain name (so a domain name is not necessary)
+- to print out error messages use sudo cat /var/log/apache2/error.log
