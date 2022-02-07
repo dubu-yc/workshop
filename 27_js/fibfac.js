@@ -1,13 +1,9 @@
-// Team Zemmi :: Clyde Sinclair, Fierce Dragon
-// SoftDev pd0
+// Team InvasionOfPrivacy :: Yoonah Chang, William Chen
+// SoftDev pd2
 // K27 -- Basic functions in JavaScript
-// 2022-02-03r
+// 2022-02-06
 // --------------------------------------------------
 
-
-// as a duo...
-// pair programming style,
-// implement a fact and fib fxn
 var fact = function(n) {
 if(n < 1){
    return 1
@@ -22,4 +18,3 @@ var fib = function(n) {
   return fib(n - 1) + fib(n - 2);
 };
 
-//Do whatever you think is needed. Think: S I M P L E.   Think: S M A R T.

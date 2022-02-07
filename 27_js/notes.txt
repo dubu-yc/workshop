@@ -1,18 +1,18 @@
-Team Phantom Tollbooth :: Clyde Sinclair, Fierce Dragon
-SoftDev pd0
+Team InvasionOfPrivacy :: Yoonah Chang, William Chen
+SoftDev pd2
 K27 -- Basic functions in JavaScript
-2022-02-03r
+2022-02-06
 
 DISCO
 -----------------------------------------------------------------
-* Ooooh, ___
-* Aaah-haa!  ____...
+* You can assign multiple variables in one line. Allows for more concise code.
+* Conditionals can be rewritten with ternary operators (according to DCL on QAF)
+
 =================================================================
 
 QCC
 -----------------------------------------------------------------
-* Why...?
-* Huh?
-* Whuh now?
+* Variable type can't really be specified in JavaScript.
+* What's the easiest way to test Javascript with singular cases?
 =================================================================
 
