@@ -18,3 +18,11 @@ var fib = function(n) {
   return fib(n - 1) + fib(n - 2);
 };
 
+var gcd = function(a, b) {
+  while(b != 0){
+    var store = b;
+    b = a % b;
+    a = store;
+  }
+  return a;
+};
