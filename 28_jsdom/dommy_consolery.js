@@ -105,10 +105,21 @@ var fib = function(n) {
 
 //gcd function
 var gcd = function(a, b) {
+	
   while(b != 0){
     var store = b;
     b = a % b;
     a = store;
   }
   return a;
+};
+
+var display = function() {
+  var item = document.getElementById("div1");
+  item.innerHTML = fib(3)
+};
+
+var disp = function() {
+  var item = document.getElementById("div2");
+  item.innerHTML = fact(5)
 };
