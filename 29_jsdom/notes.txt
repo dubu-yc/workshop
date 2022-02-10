@@ -1,0 +1,11 @@
+Team RiftHerald :: Josephine Lee, Yoonah Chang
+SoftDev pd2
+K29: DOMfoolery++
+2022-02-10r
+
+- used event listener after consulting with Yaying in period 1
+- "listens" for the click, so when you click the button, it will call the change functions that we specified in the js file.
+- made sure the inputs would be displayed in the console log
+- user inputs can be directly changed by editing the js file
+- instead of making the buttons in the js file, we decided to make the buttons in the HTML file and used document.getElementByID(<button name>) and set that equal to a variable called the function's item
+
