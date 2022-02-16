@@ -1,7 +1,7 @@
-//Team InvasionOfPrivacy: Yoonah Chang, William Chen
+//Team InvasionOfPrivacy :: Yoonah Chang, William Chen
 //SoftDev
 //K30 -- Working with canvases continued
-//2022-02-15
+//2022-02-15t
 
 //retrieve node in DOM via ID
 var c = document.getElementById("slate");
