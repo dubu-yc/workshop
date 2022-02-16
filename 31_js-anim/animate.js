@@ -1,5 +1,5 @@
-// Team Phantom Tollbooth :: Clyde Sinclair, Fierce Dragon
-// SoftDev pd0
+// Team InvasionOfPrivacy :: Yoonah Chang, William Chen
+// SoftDev pd2
 // K31 -- canvas based JS animation
 // 2022-02-15t
 
