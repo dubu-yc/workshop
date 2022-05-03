@@ -1,0 +1,12 @@
+Yoonah Chang
+SoftDev pd02
+K35 -- MongoDB Chapter 1
+2022-05-02
+time spent: 1 hr
+
+- MongoDB is a way to store and organize data except you're not using rows and columns
+- no SQL document database
+- data is stored in documents (store as a set of field-value pairs)
+- these documents are stored in collections (common fields between documents)
+- Atlas: core is MongoDB, deploy clusters (group of servers that store data), replica set (few connected MongoDB instances that store same data)
+- instance: single machine running a certain software
