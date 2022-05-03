@@ -1,0 +1,9 @@
+Yoonah Chang
+SoftDev pd02
+K34 -- MongoDB Intro Video
+2022-04-27
+time spent: 5 min
+
+- looks interesting
+- initial questions: how is MongoDB similar to SQL and similar programs we have talked about in class? 
+- what I know about MongoDB so far: is faster that a lot of other options, has more requirements in order to load, helps with larger projects
