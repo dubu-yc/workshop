@@ -1,0 +1,31 @@
+Yoonah Chang
+SoftDev pd02
+K26 -- MongoDB Chapter 2
+2022-05-03
+time spent: 1 hr
+
+- viewing/updating documents in the shell uses JSON (JavaScript Standard Object Notation)
+- can have sub-documents (address example)
+- JSON: friendly, readable, familiar but text-based (slow), space-consuming, limited data types it can support
+- BSON (Binary JSON): bridge gap between binary representation and JSON format, bring up the shortcomings of JSON, faster to parse, lighter, supports more data types than JSON
+- MongoDB stores data in BSON (not human readable), view in JSON.
+
+mongodump
+(exports data in BSON)
+
+mongoexport
+(exports data in JSON)
+
+URI string: Uniform Resource Identifier
+
+mongorestore
+(imports data in BSON dump)
+
+mongoimport
+(imports data in JSON)
+
+it: integrates through a cursor
+cursor: a pointer to a result set of a query
+pointer: a direct address of the memory location
+
+.pretty: makes things *pretty*
