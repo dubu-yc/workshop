@@ -1,0 +1,37 @@
+
+Yoonah Chang
+SoftDev pd02
+K26 -- MongoDB Chapter 3
+2022-05-08
+time spent: 1 hr
+
+- Every document must have a unique _id value (_id is a unique identifier for a document in a collection)
+- they can have same field-value pairs, just has to have _id value
+- don't do all same or all different documents in a collection
+- when we insert new document, population _id field with type ObjectID() which is default unless specified
+- to insert new documents do insert document and fill out fields with different types
+- inserting a lot of documents or duplicating error: --drop command to clear out collection before putting it back in. 
+- .findOne() can return a specific document or see the shape of the document
+- .insert(), put the document data inside of the ()
+- if you want a duplicate document, insert without the unique _id value (it will be automatically generated)
+- adding multiple documents: use an array by separating them with a comma and using square brackets
+- if you insert a document into a collection that doesn't exist, then the collection will get created for you
+- use {"ordered" : false} to disable the default ordered insert
+- db.collection.insert([{<doc1>}, {<doc2>}])
+- array of objects
+- updateOne()
+- updateMany()
+- deleteOne()
+- deleteMany()
+- db.<collection>.drop() deletes given collection
+- when you delete, the data is gone for good
+
+UPDATE OPERATORS:
+{"$inc": {"pop": 10, "<field2>": <increment value>, ...}}
+- allows us to update multiple fields at the same time
+
+{"$set": {"pop": 10, "<field2>": <increment value>, ...}}
+- sets field value to a new specified value
+
+{ $push: { <field1>: <value1>, ...
+- adds an element to an array field
