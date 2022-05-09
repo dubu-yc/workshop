@@ -1,7 +1,6 @@
-
 Yoonah Chang
 SoftDev pd02
-K26 -- MongoDB Chapter 3
+K27 -- MongoDB Chapter 3
 2022-05-08
 time spent: 1 hr
 
