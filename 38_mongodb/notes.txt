@@ -1,0 +1,70 @@
+Yoonah Chang
+SoftDev pd02
+K28 -- MongoDB Chapter 4
+2022-05-09
+time spent: 1 hr
+
+MQL Operators
+- update operators ($inc, $set, $unset
+- enables us to modify data in the database
+
+Query Operators
+- provide additional ways to locate data within database
+
+Comparison Operators
+- allow us to find data within a certain range
+- $eq = Equal to
+- $gt > Greater than
+- $gte >= Greater than or equal to
+- $ne = Not equal to
+- $lt < Less than
+- $lte <= Less than or equal to
+- {<field>: { <operator>: <value> } }
+
+Logic Operators
+- allows us to be more granular in search for data
+- $and: match all of specified query clauses, used as default operator when one is not specified, use explicitly when you need to include same operator more than once
+- $or: at least one of the query clauses is matched
+- $nor: fail to match both given clauses
+- these use {<operator> : [{statement1}, {statement2}, ...]}
+- $not: negates query requirement
+- uses {$not: {statement}}
+
+- $expr: allows the use of aggregation expressions within the query language, allows the use of variables and conditional statements, allows to compare fields within a document
+- uses { $expr: { <expression> }}
+
+$
+- denotes the use of an operator
+- addresses the field value
+
+{ <operator> : { <field>, <value> } }
+- syntax for comparison operators using aggregation
+
+Array operators
+- $push: allows us to add an element to an array, turns a field into an array field if it wasn't previously
+- {<array field> : { "$size": <number>}}
+- returns cursor with all docs where specified array field is exactly given length
+- {<array field> : { "$all": <number>}}
+- returns cursor with all documents in which specified array field has all given elements regardless of order
+- array returns only exact array matches
+- single element will return all docs where the specified array field contains this given element
+
+Projection
+- db.<collection>.find({ <query> }, { <projection> })
+- 1: includes the field
+- 0: excludes the field
+- uses only 1s or only 0s
+- db.<collection>.find({ <query> },{ <field1>: 1, <field2>: 1 }) or db.<collection>.find({ <query> },{ <field1>: 0, <field2>: 0 })
+- exception: db.<collection>.find({ <query> },{ <field1>: 1, "_id": 0 })
+- {<field> : { "$elemMatch": { <field>: <value> }}}
+- matches documents that contain an array field with at least one element that matches the specified query criteria or projects only the array elements with at least one element that matches the specified criteria
+
+Query sub-documents and arrays
+- MQL uses dot-notation to specify address of nested elements in a document
+- to use dot-notation in arrays specify the position of the element in the array
+- db.collection.find({"field1.other field.also a field": "value"})
+
+
+
+
+
