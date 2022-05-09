@@ -63,8 +63,3 @@ Query sub-documents and arrays
 - MQL uses dot-notation to specify address of nested elements in a document
 - to use dot-notation in arrays specify the position of the element in the array
 - db.collection.find({"field1.other field.also a field": "value"})
-
-
-
-
-
