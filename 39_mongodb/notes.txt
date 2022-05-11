@@ -1,0 +1,45 @@
+Yoonah Chang
+SoftDev pd02
+K28 -- MongoDB Chapter 5
+2022-05-011
+time spent: 1 hr
+
+Aggregation Framework
+- another way to query data in MongoDB
+- use .aggregate instead of .find
+- you can calculate
+- pipeline: 2 filters are match stage ($match) and project stage ($project)
+- can compute, reshape, and organize data
+- $group: an operator that takes the incoming stream of data and siphons it into multiple distinct reservoirs
+- non-filtering stages don't modify original data (instead work with the data in the cursor)
+
+Cursor Methods
+- sort()
+- limit()
+- pretty()
+- count()
+- do the find() method first then cursor.___()
+- can be increasing/decreasing direction
+- limit() without sort() might miss some data
+- cursor.limit().sort() is the same as cursor.sort().limit()
+
+Indexes
+- make queries more efficient
+- in a database - special data structure that stores a small portion of the collection's data set in an easy to transverse form aka a data structure that optimizes queries
+
+Data Modeling
+- a way to organize fields in a document to support your application performance and querying capabilities
+- data is stored in the way that it is used
+- data that is used together should be stored together
+- evolving application implies an evolving data model
+
+Upsert
+- everything in MQL that is used to locate a doc in a collection can also be used to modify this document
+- db.collection.updateOne({<query to locate>},{<update>})
+- hybrid of update and insert
+- should only be used when it is needed
+- db.collection.updateOne({<query},{<update>},{"upsert":true})
+- default is false
+- if upsert is true, ask if there is a match
+- make sure that the document has the same or similar form to other documents in the collection
+- use for conditional updates
