@@ -1,0 +1,27 @@
+Yoonah Chang
+SoftDev pd02
+K40 -- MongoDB Chapter 6
+2022-05-11
+time spent: 1 hr
+
+Data Explorer
+- performance advisory in index tab
+- aggregation builder
+- anti-pattern advisory
+- advanced text search
+
+Atlas Features
+- Realm: lets developers build web/mobil apps or integrate MongoDB Atlas data into an app
+- billing happens at organization level
+- projects are within organization
+- teams assigned to projects
+- clusters have unique name
+- charts
+
+Compass
+- connection
+- documents
+- schema
+- indexes
+- explain
+- validation
