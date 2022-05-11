@@ -1,7 +1,7 @@
 Yoonah Chang
 SoftDev pd02
-K28 -- MongoDB Chapter 5
-2022-05-011
+K39 -- MongoDB Chapter 5
+2022-05-11
 time spent: 1 hr
 
 Aggregation Framework
